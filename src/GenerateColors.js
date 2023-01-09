@@ -5,14 +5,10 @@ function GenerateColors() {
   const [hexColorCode, setHexCode] = useState("FA8072");
   const [colorList, setColorList] = useState([]);
 
-  function defaultValues() {
+  useEffect(() => {
     const defaultList = new Values(`#${hexColorCode}`);
     setColorList(defaultList.all(5));
-  }
-
-  useEffect(() => {
-    defaultValues();
-  }, []);
+  }, 1000);
 
   function handleColor(e) {
     e.preventDefault();
