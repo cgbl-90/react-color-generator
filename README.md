@@ -2,8 +2,11 @@
 
 ### About
 
-Generate colors by default 
+Generate colors by default
+
 Allows to copy them to the clipboard
+
+Demo: https://color-generator-by-cgbl.netlify.app/
 
 Used [Values.js by Noel Delgado](https://github.com/noeldelgado/values.js/blob/master/README.md)
 
