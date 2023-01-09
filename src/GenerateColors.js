@@ -6,7 +6,7 @@ function GenerateColors() {
   const [colorList, setColorList] = useState([]);
 
   useEffect(() => {
-    const defaultList = new Values(`#${hexColorCode}`);
+    const defaultList = new Values(`#FA8072`);
     setColorList(defaultList.all(5));
   }, 1000);
 
